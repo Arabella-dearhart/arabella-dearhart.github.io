@@ -1,0 +1,96 @@
+#logo{
+    margin: 0px 10px;
+    padding: 8px;
+    font-family: 'Tangerine';
+    font-size: 8vw;
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+
+body {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body > header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+
+}
+#navul > li > a{
+    
+    padding: 12px;
+    margin: 16px;
+    border: 1px solid white;
+    border-radius: 10%;
+
+}
+
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+}
+body > main  article {
+    width: 90%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+img{
+    border-radius: 100%;
+}
+
+form {
+    
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: orange;
+    display: flex;
+
+}
+
+#footer_ul {
+    display: flex;
+    list-style: none;
+    
+   
+
+}
+
+#footer_ul > div > li > a {
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
