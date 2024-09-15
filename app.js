@@ -56,10 +56,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  function displayText() {
-    // Get the value of the text input
-    var name = document.getElementById('cat_name').value;
-    
-    // Display the name in the box
-    document.getElementById('name_box').textContent = name;
-}
+
+      document.addEventListener('DOMContentLoaded', function() {
+        // Prevent form from refreshing the page on submit
+        document.getElementById('myform').addEventListener('submit', function(event) {
+            event.preventDefault();  // Stop page refresh
+            displayText();           // Call the displayText function
+        });
+    });
+
+    function displayText() {
+        // Get the value of the text input
+        var name = document.getElementById('cat_name').value;
+
+        // Display the name in the box
+        document.getElementById('name_box').textContent = name;
+    }

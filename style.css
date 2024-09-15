@@ -88,3 +88,12 @@ h3 {
     margin: 3%;
     font-size: 1vh;
 }
+
+#name_box {
+    display: flex;
+    color: rgb(0, 166, 255) ;
+    font-family: arial, sans-serif;
+    height: 5vh;
+    font-size: 4vh;
+    font-weight: bold;
+}
