@@ -55,3 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  function displayText() {
+    // Get the value of the text input
+    var name = document.getElementById('cat_name').value;
+    
+    // Display the name in the box
+    document.getElementById('name_box').textContent = name;
+}
